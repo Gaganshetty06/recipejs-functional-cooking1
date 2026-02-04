@@ -27,3 +27,37 @@
     <script src="app.js"></script>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RecipeJS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>RecipeJS</h1>
+
+  <input id="search-input" type="text" placeholder="Search recipes...">
+  <button id="clear-search" class="hidden">❌</button>
+
+  <div class="filters">
+    <button data-filter="all">All</button>
+    <button data-filter="veg">Veg</button>
+    <button data-filter="nonveg">Non-Veg</button>
+    <button data-filter="favorites">❤️ Favorites</button>
+  </div>
+</header>
+
+<main>
+  <p id="recipe-counter">Showing 0 of 0 recipes</p>
+  <div id="recipe-container"></div>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
+
+

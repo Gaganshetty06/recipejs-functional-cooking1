@@ -1,3 +1,51 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+  padding: 20px;
+}
+
+input {
+  padding: 8px;
+  width: 200px;
+}
+
+button {
+  padding: 6px 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+#recipe-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  border-radius: 6px;
+}
+
+.favorite-btn {
+  background: none;
+  border: none;
+  font-size: 22px;
+}
+
+.favorite-btn.active {
+  color: red;
+}
+
+#recipe-counter {
+  font-weight: bold;
+  margin-top: 10px;
+}
 /* Reset and Base Styles */
 * {
     margin: 0;
@@ -102,3 +150,4 @@ main {
     background-color: #f8d7da;
     color: #721c24;
 }
+
